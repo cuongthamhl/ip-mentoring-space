@@ -1,5 +1,5 @@
 package notes
 
 object Space extends App {
-  println("Hello")
+  def greet(name: String) = s"Hello $name"
 }
